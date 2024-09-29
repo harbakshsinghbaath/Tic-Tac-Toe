@@ -134,9 +134,16 @@ int main(){
     }
     while(i== -1);
     board();
+    string A;
+   if (--player == 0){
+    A = name1;
+   }
+   else{
+    A = name2;
+   }
     if( i == 1)
     {
-      cout<< "\aCONGRATULATIONS PLAYER! " << --player << " WINS!";
+      cout<< "\aCONGRATULATIONS PLAYER " << A <<" WINS!";
     }
     else
     {
